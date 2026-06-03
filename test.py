@@ -1,9 +1,10 @@
-hell = "Hello, World!"
-print(len(hell))
-print(hell[0])
-print(hell[6:11])
-print(hell[-1])
-print(hell.upper())
-x = 45/3
-print(type(x))
-print(x)
+import math
+temperature = int(input("Enter the temperature: "))
+if temperature > 30:
+    print("It's a hot day")
+elif temperature > 20:
+    print("It's a nice day")
+elif temperature > 10:
+    print("It's a bit cold")
+else:
+    print("It's cold")
